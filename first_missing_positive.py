@@ -1,4 +1,4 @@
-def firstMissingPositive(self, nums):
+def firstMissingPositive(nums):
     """
     :type nums: List[int]
     :rtype: int
