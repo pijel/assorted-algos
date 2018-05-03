@@ -57,3 +57,5 @@ class Queue:
         while a:
             print (a.val)
             a = a.prev
+    def nonempty(self):
+        return (self.first != None and self.last != None)
