@@ -59,3 +59,5 @@ class Queue:
             a = a.prev
     def nonempty(self):
         return (self.first != None and self.last != None)
+    def peek(self):
+    	return self.first.val
