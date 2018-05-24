@@ -4,7 +4,7 @@
         self.next = None
 class Stack:
     def __init__(self):
-        self.head = head
+        self.head = None
     def push(self,value):
         new_node = ListNode(value)
         if self.head == None:
@@ -24,7 +24,10 @@ class Stack:
         while a:
             print(a.val)
             a = a.next
-            
+    def peek(self):
+        return self.head.val
+    def nonempty(self):
+        return self.head != None
         
 class DoubleListNode:
    def __init__(self,x):
