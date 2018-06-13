@@ -27,8 +27,9 @@ class kQueue:
             return False
         return_value = self.first.val
         self.first = self.first.prev
-        return return_value
         self.size -=1
+        return return_value
+        
     def peek(self):
         return self.first.val
     def __str__(self):
